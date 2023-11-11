@@ -1,0 +1,9 @@
+1 faixa: titulo, opções do site, foto de treino, algum texto sobre
+
+2 faixa: informações sobre o professor
+
+3 faixa: serviço que serão oferecidos
+
+4: fotos de exemplos de transformações com textos
+
+5: formulario + informações do professor

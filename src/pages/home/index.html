@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exclusive Training</title>
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="variable.css" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="menu.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/font-awesome.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <a href="/">
+          <h1 class="logo">Exclusive Training</h1>
+        </a>
+
+        <nav>
+          <input type="checkbox" id="menu-hamburguer" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+        <h2>One Life </br>One Chance</br>One Opportunity</br>One more day to WIN</h2>
+    </section>
+    <section class="about" id="about">
+        <div class="item">
+            <h3>Objective</h3>
+            <p>Dedicated and certified personal trainer with a passion for helping clients achieve their fitness goals. Experienced in designing personalized workout programs and providing nutritional guidance. Committed to fostering a positive and motivating environment to inspire clients to reach their full potential.</p>
+            <a href="" class="btn-know-more">Saiba mais</a>
+        </div>
+        <!-- <div class="image right"></div>
+        <div class="image left"></div> -->
+        <img src="../../../assets/images/personal_3.jpg" alt="Image right" class="image right" />
+        <img src="../../../assets/images/treino.avif"Image left" class="image left" />
+        <div class="item">
+            <h3>Professional Experience</h3>
+            <ol>
+                <li>Personalized Fitness Programming</li>
+                <li>Goal Setting and Motivation</li>
+                <li>Strength and Conditioning Training</li>
+                <li>Cardiovascular Training</li>
+                <li>Nutrition Guidance</li>
+              
+            </ol>
+            <a href="" class="btn-know-more">Saiba mais</a>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+
+        <div class="project">
+            <a href="">
+                <img src="../../../assets/images/perda_1.jpg" alt="Pessoa1" />
+            </a>
+        </div>
+        <div class="project">
+            <a href="">
+                <img src="../../../assets/images/perda_2.jpg" alt="Pessoa2" />
+            </a>
+        </div>
+        <div class="project">
+            <a href="">
+                <img src="../../../assets/images/perda_5.webp" alt="Pessoa3" />
+            </a>
+        </div>
+        <div class="project">
+            <a href="">
+                 <img src="../../../assets/images/perda_4.jpg" alt="Pessoa4" />
+            </a>
+        </div>
+    
+    </section>
+    <footer class="footer" id="contact">
+
+        <h4>Exclusive Training</br>Send a message!</h4>
+
+        <div class="formulario">
+            <form action="" onsubmit="verificaFormulario(event)">
+            <input type="text" name="name" id="name" placeholder="Nome completo *" class="input-padrao">
+            <label for="name" class="label-error">*campos obrigatórios</label>
+            
+            <input type="text" name="email" id="email" placeholder="Email *" class="input-padrao">
+            <label for="email" class="label-error">*campos obrigatórios</label>
+            
+            <input type="text" name="telefone" id="telefone" placeholder="Telefone *" class="input-padrao">
+            <label for="telefone" class="label-error">*campos obrigatórios</label>
+            
+            <textarea type="text" name="mensagem" id="mensagem" placeholder="Mensagem *" class="mensagem input-padrao"></textarea>
+            <label for="mensagem" class="label-error">*campos obrigatórios</label>
+            
+            <button type="submit">Enviar</button>
+          </form> </div>
+
+
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+
+    </footer>
+  </body>
+</html>
